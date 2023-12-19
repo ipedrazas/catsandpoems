@@ -6,11 +6,11 @@ header_image: "images/cover-image.jpg"
 header_use_video: false
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-# header_logo: "images/chef-hat.png"
+header_logo: "images/logo.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Cats and Poems"
-header_subheadline: "Micro Redesigner Denim Studio"
+# header_headline: "Cats and Poems"
+header_subheadline: "Micro (re) designer Denim Studio"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
