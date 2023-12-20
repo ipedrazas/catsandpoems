@@ -1,13 +1,21 @@
 <style>
 
+:root {
+
+/* === Cover / Landing area === */
+--cover-text-color: #392a6f;
+/* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+--highlight: #7254b9;
+}
+
 #site-head, #site-head.withCenteredImage {
     color: #392a6f;
 }
 
-#site-head a.btn, #site-head.withCenteredImage a.btn {
+/* #site-head a.btn, #site-head.withCenteredImage a.btn {
     background-color: #392a6f;
     color: #a999e3
-}
+} */
     
 #site-head .blog-description, #site-head.withCenteredImage .blog-description{
     padding: 4px;
@@ -20,5 +28,14 @@
     margin: 0 auto;
     width: fit-content;
     padding: 4px 10px;
+}
+
+#site-head a.btn, #site-head.withCenteredImage a.btn {
+    background-color: #ffffff;
+    color: #1f1936;
+}
+
+a.fn-item:hover, a.fn-item.active {
+    color: #7254b9;
 }
 </style>
